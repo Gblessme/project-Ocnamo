@@ -26,6 +26,9 @@ input, select {
     border: 1px solid #c98b54;
     border-radius: 4px;
     box-sizing: border-box;
+    position: initial;
+    margin-bottom: 50px; /* Pour donner de l'espace au texte en dessous */
+
 }
 
 button {
@@ -51,3 +54,12 @@ padding: 0 40px;
 h2 {
     text-align: center;
 }
+
+.language {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    width: 200px; 
+    height: 15px;
+}
+
